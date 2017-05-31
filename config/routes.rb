@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   get "index" => "welcome#index"
 
-  root "welcome#root"
+  root "welcome#index"
 end
